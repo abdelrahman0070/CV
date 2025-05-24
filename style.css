@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;  
+    background-color: #f8f9fa;  
+    color: #333;  
+}
+
+ 
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #2a2a72 0%, #009ffd 100%);  
+    transition: background 0.3s ease;
+}
+
+.custom-image-size {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid rgba(255, 255, 255, 0.3);  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+ 
+
+ 
+body.dark-mode {
+    background-color: #1a1a2e;  
+    color: #e0e0e0;  
+}
+
+ تعديت شريط تنق في وضع ي 
+.navbar.dark-mode {
+    background-color: #0d0d1f !important;  
+    border-bottom: 1px solid #333;
+}
+
+.navbar.dark-mode .navbar-brand,
+.navbar.dark-mode .nav-link,
+.navbar.dark-mode .form-check-label {
+    color: #e0e0e0 !important;  
+}
+
+.navbar.dark-mode .nav-link:hover {
+    color: #a3daff !important;  
+}
+
+
+ 
+header.dark-mode {
+    background: linear-gradient(135deg, #0d0d1f 0%, #1a1a2e 100%) ;
+    color: #e0e0e0 !important;
+}
+
+header.dark-mode h1,
+header.dark-mode h2,
+header.dark-mode p {
+    color: #e0e0e0 !important;  
+}
+
+header.dark-mode .text-info {
+    color: #a3daff !important;  
+}
+
+
+ 
+.dark-mode .btn-primary {
+    background-color: #0056b3 !important;  
+    border-color: #0056b3 !important;
+    color: white !important;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #003a7a !important;
+    border-color: #003a7a !important;
+}
+
+.dark-mode .btn-outline-light {
+    color: #a3daff !important;   
+    border-color: #a3daff !important;  
+}
+
+.dark-mode .btn-outline-light:hover {
+    background-color: #a3daff !important;
+    color: #1a1a2e !important;  
+}
+
+ 
+.dark-mode .custom-image-size {
+    border: 5px solid rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);  
+}
+
+ 
+.dark-mode .dark-mode-icon {
+    display: inline-block !important;  
+}
+
+.dark-mode .light-mode-icon {
+    display: none !important;  
+}
